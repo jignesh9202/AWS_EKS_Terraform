@@ -5,7 +5,6 @@ module "vpc" {
   vpc_cidr         = "10.1.0.0/16"
   max_subnet       = 2
   public_sn_count  = 2
-  access_ip        = "0.0.0.0/0"
 }
 
 module "eks" {
